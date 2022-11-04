@@ -1,0 +1,36 @@
+#!bin/bash
+
+mkdir -p eduardo/JPG
+mkdir -p eduardo/MP4
+mkdir -p eduardo/MP3
+
+mkdir -p carlos/JPG
+mkdir -p carlos/MP4
+mkdir -p carlos/MP3
+
+mkdir -p esmeralda/JPG
+mkdir -p esmeralda/MP3
+mkdir -p esmeralda/MP4
+
+mv ?eduardo*.jpg eduardo/JPG
+mv ??eduardo*.jpg eduardo/JPG
+mv ?eduardo*.mp3 eduardo/MP3
+mv ??eduardo*.mp3 eduardo/MP3
+mv ?eduardo*.mp4 eduardo/MP4
+mv ??eduardo*.mp4 eduardo/MP4
+
+mv ?carlos*.jpg carlos/JPG
+mv ??carlos*.jpg carlos/JPG
+mv ?carlos*.mp4 carlos/MP4
+mv ??carlos*.mp4 carlos/MP4
+mv ?carlos*.mp3 carlos/MP3
+mv ??carlos*.mp3 carlos/MP3
+
+mv ?esmeralda*.jpg esmeralda/JPG
+mv ??esmeralda*.jpg esmeralda/JPG
+mv ?esmeralda*.mp3 esmeralda/MP3
+mv ??esmeralda*.mp3 esmeralda/MP3
+mv ?esmeralda*.mp4 esmeralda/MP4
+mv ??esmeralda*.mp4 esmeralda/MP4
+
+echo si sirvio?
